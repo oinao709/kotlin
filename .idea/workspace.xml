@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4fb691b-2e6c-4618-b851-8eca4b671330" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kittinunf_fuel_fuel_1_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kittinunf_fuel_fuel_gson_1_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kittinunf_result_result_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotline_tome/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotline_tome/src/main/kotlin/Manga.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotline_tome/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotline_tome/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotline_tome/src/main/kotlin/Manga.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotline_tome/src/main/kotlin/Manga.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/kotline_tome/.gradle/" />
     <ignored path="$PROJECT_DIR$/kotline_tome/build/" />
@@ -34,20 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotline_tome/src/main/kotlin/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="65">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manga.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Manga.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kotline_tome/src/main/kotlin/Manga.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="104">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -443,27 +438,6 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="kotline_tome" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kotline_tome" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kotline_tome" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kotline_tome" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -560,12 +534,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536908656089</updated>
-      <workItem from="1536908657851" duration="1818000" />
+      <workItem from="1536908657851" duration="2747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1818000" />
+    <option name="totallyTimeSpent" value="2747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -589,10 +563,10 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
@@ -618,17 +592,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotline_tome/src/main/kotlin/Manga.kt">
+    <entry file="file://$PROJECT_DIR$/kotline_tome/src/main/kotlin/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="65">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotline_tome/src/main/kotlin/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotline_tome/src/main/kotlin/Manga.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="104">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

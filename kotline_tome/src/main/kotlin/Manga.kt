@@ -1,11 +1,10 @@
 class Manga() {
 
-    fun mangaTitle() {
-        println("タイトル")
-    }
+    val mangaTitle: String = "タイトル"
+    val mangaGanre: String = "ジャンル"
 
-    fun mangaGanre() {
-        println("ジャンル")
+    fun getManga() {
+        println(mangaTitle + ":" + mangaGanre)
     }
 
 }
