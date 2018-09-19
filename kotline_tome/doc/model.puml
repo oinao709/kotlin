@@ -1,0 +1,13 @@
+@startuml
+
+class Manga {
+}
+class MangaTitle {
+  MangaTitleName
+  Volume
+}
+
+Manga --> MangaTitle
+Manga --> MangaGenre
+
+@enduml
