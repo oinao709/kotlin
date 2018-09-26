@@ -1,3 +1,5 @@
+package domain.manga
+
 class MangaTitle {
 
     val mangaTitleName: String = "タイトル名"

@@ -18,7 +18,7 @@ package domain {
     + Manga refer()
     + register(Manga)
   }
-  package manga {
+  package domain.manga {
     class Manga {
       MangaCode
       MangaTitle
