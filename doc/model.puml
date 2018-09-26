@@ -1,0 +1,51 @@
+@startuml
+
+package api {
+  class MangaRegisterApi {
+    + register()
+  }
+}
+
+package service {
+  class MangaRegisterService {
+    + Manga refer()
+    + register(Manga)
+  }
+}
+
+package domain {
+  interface Repository {
+    + Manga refer()
+    + register(Manga)
+  }
+  package manga {
+    class Manga {
+      MangaCode
+      MangaTitle
+      MangaGenre
+    }
+    class MangaTitle {
+      MangaTitleName
+      Volume
+    }
+    class MangaGenre {
+    }
+
+    Manga --> MangaTitle
+    Manga --> MangaGenre
+
+    Repository --> Manga
+  }
+}
+
+package datasource {
+  class RepositoryEvent {
+  }
+}
+
+MangaRegisterApi --> MangaRegisterService
+MangaRegisterService --> Manga
+MangaRegisterService --> Repository
+RepositoryEvent --|> Repository
+
+@enduml
