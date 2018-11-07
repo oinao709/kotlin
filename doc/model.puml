@@ -8,33 +8,33 @@ package api {
 
 package service {
   class MangaRegisterService {
-    + Manga refer()
+    + 漫画 refer()
     + register(Manga)
   }
 }
 
 package domain {
   interface Repository {
-    + Manga refer()
+    + 漫画 refer()
     + register(Manga)
   }
   package domain.manga {
-    class Manga {
-      MangaCode
-      MangaTitle
-      MangaGenre
+    class 漫画 {
+      漫画コード
+      タイトル
+      ジャンル
     }
-    class MangaTitle {
-      MangaTitleName
-      Volume
+    class タイトル {
+      タイトル名
+      巻数
     }
-    class MangaGenre {
+    class ジャンル {
     }
 
-    Manga --> MangaTitle
-    Manga --> MangaGenre
+    漫画 --> タイトル
+    漫画 --> ジャンル
 
-    Repository --> Manga
+    Repository --> 漫画
   }
 }
 
@@ -44,7 +44,7 @@ package datasource {
 }
 
 MangaRegisterApi --> MangaRegisterService
-MangaRegisterService --> Manga
+MangaRegisterService --> 漫画
 MangaRegisterService --> Repository
 RepositoryEvent --|> Repository
 
