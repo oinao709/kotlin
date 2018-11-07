@@ -1,9 +1,9 @@
 package domain.manga
 
 class MangaCode {
-    val mangaCode: String = "1"
+    val value: String = "1"
 
     fun get() {
-        println(mangaCode)
+        println(value)
     }
 }

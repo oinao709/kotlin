@@ -2,10 +2,10 @@ package domain.manga
 
 class MangaGenre {
 
-    val mangaGenre: String = "ジャンル"
+    val mangaGenreName: String = "ジャンル"
 
     fun get() {
-        println(mangaGenre)
+        println(mangaGenreName)
     }
 
 }

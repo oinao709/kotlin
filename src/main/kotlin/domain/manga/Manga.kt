@@ -6,9 +6,9 @@ class Manga() {
     val mangaGenre: MangaGenre = MangaGenre()
 
     fun getManga() {
-        println(mangaCode.get())
-        println(mangaTitle.get())
-        println(mangaGenre.get())
+        println(mangaCode.value)
+        println(mangaTitle.mangaTitleName)
+        println(mangaTitle.volume)
+        println(mangaGenre.mangaGenreName)
     }
-
 }

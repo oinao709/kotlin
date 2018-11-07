@@ -2,7 +2,9 @@ import domain.manga.Manga
 
 fun main(args: Array<String>) {
 
-    val manga = Manga()
+    val mangaRegisterService = MangaRegisterService()
+
+    val manga : Manga = mangaRegisterService.register()
 
     manga.getManga()
 
